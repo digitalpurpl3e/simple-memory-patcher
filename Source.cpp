@@ -5,7 +5,7 @@
 
 int main()
 {					// - http://www.club155.ru/x86cmd/Jcc	
-	BYTE jump[] = { 0xEB, 0x00 };   //jne - 0x75, jmp - 0xEB, nop - 0x90 
+	BYTE jump[] = { 0xEB, 0x00 };   // jmp - 0xEB, nop - 0x90 
 	DWORD address = 0x0; 
 	DWORD pid; //processid
 
