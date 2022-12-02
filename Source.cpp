@@ -2,7 +2,7 @@
 #include <iostream> //cout, cin
 
 
-// - http://www.club155.ru/x86cmd/Jcc
+
 int main()
 {					// - http://www.club155.ru/x86cmd/Jcc	
 	BYTE jump[] = { 0xEB, 0x00 };   //jne - 0xEB, jmp - 0x00, nop - 0x90 
